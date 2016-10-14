@@ -1,9 +1,11 @@
 <head>
 <link  href="../css/font-awesome.min.css"  rel="stylesheet">
+<link  href="../css/bootstrap.min.css"  rel="stylesheet">
 <link  href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <link  href="../fonts/fontawesome-webfont.eot?v=4.6.3'"  rel="stylesheet">
+<?head>
 
-
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
   h2 {
     font-family: Lobster, Monospace;
@@ -18,7 +20,6 @@
 
 </style>
 
-</head>
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-8">
@@ -61,20 +62,28 @@
         <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
       </div>
     </div>
-    
     <div class="row">
       <div class="col-xs-4">
-    <label><input type="checkbox" name="personality"> Loving</label>
+        <label><input type="checkbox" name="personality"> Loving</label>
       </div>
       <div class="col-xs-4">
-    <label><input type="checkbox" name="personality"> Lazy</label>
-              </div>
+        <label><input type="checkbox" name="personality"> Lazy....</label>
+      </div>
       <div class="col-xs-4">
-    <label><input type="checkbox" name="personality"> Crazy</label>
+        <label><input type="checkbox" name="personality"> Crazy</label>
       </div>
     </div>
     
-    <input type="text" placeholder="cat photo URL" required>
-    <button type="submit">Submit</button>
+    <div class="row">
+      
+    <div class=col-xs-7>
+    <input type="text" class="form-control" placeholder="cat photo URL" required>
+     </div>
+      
+    <div class=col-xs-5> 
+    <button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button>
+     </div>
+      
+    </div>
   </form>
 </div>
